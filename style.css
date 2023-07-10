@@ -32,7 +32,6 @@
     border-radius: 8px;
     background: #E55473;
     border: none;
-    margin-top: 20px;
     box-shadow: none;
     color: #FFF;
     font-size: 20px;
@@ -41,6 +40,9 @@
 .banner-info{
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
+}
+.feature{
+    margin-top: 100px;
 }
 .feature-title{
     color: #272727;
@@ -65,33 +67,38 @@
     margin-left: auto;
     text-align: center;
     text-decoration: underline;
+    max-width: 1260px;
+    margin-top: 30px;
 }
 .pink{
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     display: flex;
     justify-content: center;
     align-items: end;
+    margin-bottom: 20px;
 }
 .red{
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .yellow{
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     display: flex;
     justify-content: center;
     align-items: end;
+    margin-bottom: 20px;
 }
 .blogs{
     display: flex;
@@ -131,12 +138,17 @@
     height: 500px;
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding: 200px;
     margin-bottom: 100px;
+}
+.middle-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .middle-title{
     text-align: center;
@@ -154,13 +166,20 @@
     margin-bottom: 20px;
 }
 #btn{
+    width: 200px;
    text-align: center;
 }
 .deals{
-    background-image: url('../flower-shop-assignment/Flower Asset/Rectangle9.png');
+    background-image: url('Flower Asset/Rectangle9.png');
+    background-position: center;
     background-repeat: no-repeat;
-    margin: 100px 0px;
-    background-color: #E55473;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1260px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    
 }
 
 .latest{
@@ -177,13 +196,22 @@
     font-weight: 400;
     line-height: 30px;
 }
-.email{
+.subscription{
    text-align: center;
    padding-bottom: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px auto 0px;
+
 }
    #email{
-    width: 700px;
+    width: 500px;
     height: 64px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border:none;
+    margin-right: 15px;
 }
 .off{
     color: #E55473;
