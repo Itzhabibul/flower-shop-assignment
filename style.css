@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.banner{
+    background-color:rgba(229, 84, 115, 0.10);
+    padding: 30px 240px 0px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner-content{
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.img{
+    transform: rotateY(180deg);
+   
+}
+.banner-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    margin-top: 20px;
+    box-shadow: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-info{
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+}
