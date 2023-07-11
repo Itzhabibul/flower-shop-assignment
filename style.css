@@ -16,7 +16,7 @@
     margin-bottom: 50px;
 }
 .banner-img{
-    width: 30%;
+    width: 45%;
 
 }
 .img{
@@ -37,6 +37,9 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+.btn-primary:hover{
+    cursor: pointer;
 }
 .banner-info{
     color: rgba(39, 39, 39, 0.60);
@@ -276,7 +279,7 @@
     margin-top: 30px;
 }
 .expensive{
-    background-color:rgba(229, 84, 115, 0.10);
+    /* background-color:rgba(229, 84, 115, 0.10); */
     text-align: center;
     padding: 100px 0 100px;
     margin-bottom: 100px;
@@ -309,4 +312,8 @@
     width: 300px;
     border-radius: 300px;
     overflow: hidden;
+}
+.flowers-name{
+    font-weight: bold;
+    margin-top: 10px;
 }
