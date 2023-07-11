@@ -8,20 +8,23 @@
     padding: 30px 200px 0px 200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 .banner-content{
-    max-width: 700px;
+    width: 50%;
     margin-bottom: 50px;
 }
+.banner-img{
+    width: 30%;
 
+}
 .img{
     width: 100%;
 }
 .banner-title{
     color: #272727;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -39,6 +42,7 @@
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
     margin-bottom: 20px;
+    font-size: 10px;
 }
 .feature{
     margin-top: 100px;
@@ -115,7 +119,7 @@
     color: #272727;
     background-color: white;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
@@ -152,14 +156,14 @@
 .middle-title{
     text-align: center;
     color: #272727;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 .middle-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 20px;
@@ -184,14 +188,14 @@
 .latest{
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     padding-top: 20px;
 }
 .coupon{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -222,7 +226,7 @@
 }
 .footer-title{
     color: #E55473;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 800;
     padding-top: 100px;
 }
@@ -232,8 +236,8 @@
 .footer-description{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 10px;
+    font-weight: 300;
     line-height: 30px;
     margin-top: 24px;
     margin-bottom: 32px;
@@ -242,7 +246,7 @@
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-family: Lato;
-    font-size: 16px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -255,13 +259,13 @@
     text-align: center;
 }
 .insta-title{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 800px;
     margin-bottom: 15px;
 }
 .insta-description{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 400;
     max-width: 450px;
     margin: auto;
